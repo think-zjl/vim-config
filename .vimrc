@@ -9,8 +9,6 @@
 
 "usr_05.txt
 
-"auto indent
-:set autoindent
 
 "math the word when you input
 :set incsearch
@@ -46,14 +44,19 @@ if &t_Co > 1
 	syntax enable
 endif
 
+"usr_08.txt
+"When Show last status. 0 Never, 1 Only split windows, 2 Always.
+:set laststatus=2
+
 "usr_22.txt
 "Open current path folder 
 ":edit .
 
 
 
-
-
+"usr_25.txt
+"auto indent
+:set autoindent
 
 
 
@@ -69,4 +72,4 @@ endif
 
 
 "Set current tags path.
-:set tags=~/b1300_uboot/tags
+:set tags=/mnt/d/b1300/b1300_uboot/tags
